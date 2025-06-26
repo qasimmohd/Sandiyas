@@ -5,6 +5,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Sandiyas/', // Add this line for GitHub Pages deployment
   plugins: [react(),tailwindcss()],
   resolve: {
     alias: {
@@ -12,3 +13,5 @@ export default defineConfig({
     },
   },
 })
+
+
